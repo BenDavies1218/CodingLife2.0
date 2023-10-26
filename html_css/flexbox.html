@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            width: 100vw;
+            width: fit-content;
+            height: 600px;
+            background: aqua;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        h2 {
+            width: 100px;
+            height: 100px;
+            margin: 0px;
+            background-color: darkcyan;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background: lightblue;
+        }
+        
+        .button {
+            width: 100px;
+            height: 100px;
+            background-color: darkgoldenrod;
+            transition: all 2s;
+        }
+
+        .button:focus-within {
+            transform: scale(2);
+        }
+
+
+        .text {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="box">1</div>
+        <h2 class="writing">this is text</h2>
+        <button class="button">click me baby</button>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="text">i like green eggs and ham</div>
+        <div class="box">6</div>
+    </div>
+</body>
+</html>
