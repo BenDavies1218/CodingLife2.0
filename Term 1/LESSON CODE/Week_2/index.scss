@@ -1,0 +1,19 @@
+$primary-color: blue;
+
+
+.scss-parent {
+    font-size: 20px;
+    color: $primary-color;
+
+    &:hover {
+        color: black;
+    }
+
+    .scss-child-1 {
+        color: rgb(98, 98, 19);
+        .scss-child-2 {
+            background-color: $primary-color;
+        }   
+
+    }
+}
