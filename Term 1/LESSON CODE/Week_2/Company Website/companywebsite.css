@@ -12,7 +12,7 @@ header .logoname {
   margin-bottom: 48px;
 }
 header .logoname img {
-  width: 100px;
+  width: 200px;
 }
 header .logoname .name {
   font-size: 32px;
@@ -30,7 +30,7 @@ header #nav-items {
 }
 header #nav-items a {
   text-decoration: none;
-  color: black;
-  border: b;
-  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
 }/*# sourceMappingURL=companywebsite.css.map */
