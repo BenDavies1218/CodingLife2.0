@@ -1,7 +1,36 @@
-#logoHeader {
-  width: 100px;
-}
-
 body {
   margin: 0px;
+  background-color: #D0D9F8;
+}
+
+header {
+  background-color: #F8BD66;
+  padding: 16px;
+  text-align: center;
+}
+header .logoname {
+  margin-bottom: 48px;
+}
+header .logoname img {
+  width: 100px;
+}
+header .logoname .name {
+  font-size: 32px;
+}
+header .logoname .name .coder-text {
+  color: red;
+}
+header .logoname .name .academy-text {
+  color: aqua;
+}
+header #nav-items {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+header #nav-items a {
+  text-decoration: none;
+  color: black;
+  border: b;
+  border-radius: 20px;
 }/*# sourceMappingURL=companywebsite.css.map */
