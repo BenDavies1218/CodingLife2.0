@@ -1,0 +1,19 @@
+footer {
+    @include background-stuff();
+        .social-media {
+         display: flex;
+         justify-content: space-around;
+         align-items: end;
+         margin-top: 32px;
+            a {
+                i {
+                 font-size: 24px;
+                 color: brown;
+                }
+            }
+ 
+            .info {
+             color: green;
+            }
+    }
+}

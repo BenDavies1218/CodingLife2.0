@@ -1,0 +1,76 @@
+@media screen and (min-width: 600px) {
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+header {
+  background-color: #F8BD66;
+  padding: 16px;
+  text-align: center;
+}
+header .logoname img {
+  width: 200px;
+}
+header .logoname .name {
+  font-size: 32px;
+}
+header .logoname .name .coder-text {
+  color: red;
+}
+header .logoname .name .academy-text {
+  color: aqua;
+}
+header #nav-items {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+header #nav-items a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  header .logoname .name {
+    margin-bottom: 0px;
+  }
+  header #nav-items {
+    width: 50%;
+  }
+}
+footer {
+  background-color: #F8BD66;
+  padding: 16px;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin-top: 32px;
+}
+footer .social-media a i {
+  font-size: 24px;
+  color: brown;
+}
+footer .social-media .info {
+  color: green;
+}
+
+body {
+  margin: 0px;
+  background-color: #D0D9F8;
+  min-height: 100hv;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}/*# sourceMappingURL=index.css.map */

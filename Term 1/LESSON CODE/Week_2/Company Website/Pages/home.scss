@@ -1,0 +1,17 @@
+@import "./styles/defaults/breakpoints";
+@import "./styles/defaults/colors";
+@import "./styles/Componets/utils";
+@import "./styles/Componets/header";
+@import "./styles/Componets/footer";
+@import "../../index";
+
+
+body {
+    margin: 0px;
+    background-color: $primary-background;
+
+    min-height: 100hv;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
