@@ -1,6 +1,25 @@
 body {
   margin: 0px;
   background-color: #D0D9F8;
+  min-height: 100hv;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #F8BD66;
+  padding: 16px;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 32px;
+}
+footer .social-media a i {
+  font-size: 24px;
+  color: brown;
 }
 
 header {
